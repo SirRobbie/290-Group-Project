@@ -1,1 +1,71 @@
-/*Group Project
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+/*============== Navbar items ==============*/
+/*                                          */
+/*==========================================*/
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background: #00ACED;
+}
+
+navbar-list>ul{
+	float: right;
+}
+
+.navbar-item{
+	font-size: 28px;
+	float: left;
+}
+
+.navbar-right{
+	float: right;
+}
+.navbar-item a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+.navbar-right a:hover {
+  background-color: #444;
+}
+
+.header{
+	font-family: 'Arial Black';
+	color: ##242424;
+	padding: 10px 16px;
+}
+
+/*=============== Main items ===============*/
+/*                                          */
+/*==========================================*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px 100px 20px;
+  min-height: 560px;
+}
+
+/*============== Footer items ==============*/
+/*                                          */
+/*==========================================*/
+
+footer {
+  background-color: #00ACED;
+  color: white;
+}
+
+.footerText {
+  height: 30px;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 25px;
+  font-weight: 200;
+}
